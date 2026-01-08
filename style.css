@@ -155,3 +155,68 @@ table {
     box-shadow: 0 12px 30px rgba(88, 166, 255, 0.25);
 }
 
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        min-height: 100vh;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    body > div {
+        width: 100%;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    body > div > div {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    #resultat-titre {
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #resultat {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    #searched-img {
+        width: 100%;
+        max-width: 100%;
+        min-width: unset;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}

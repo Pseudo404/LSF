@@ -6,7 +6,7 @@ function search(){
 
     const img = document.getElementById("searched-img");
 
-    research.toLowerCase();
+    research = research.toLowerCase();
 
     img.src = `alphabet/${research}.jpg`;
 }
