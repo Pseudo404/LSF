@@ -8,6 +8,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 h1 {
@@ -135,7 +136,7 @@ table {
 }
 
 #resultat {
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -160,6 +161,7 @@ table {
     body {
         padding: 10px;
         min-height: 100vh;
+        overflow: visible;
     }
 
     h1 {
